@@ -1,4 +1,4 @@
-- hosts: win2k16
+- hosts: 
   tasks:
     - name: Stop service Spooler
       win_service:
