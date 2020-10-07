@@ -1,4 +1,4 @@
 - hosts: all
   tasks:
     - name: Stop service Spooler
-      ansible.windows.win_shell: Get-Service -Name "Spooler"
+      win_shell: Get-Service -Name "Spooler"
