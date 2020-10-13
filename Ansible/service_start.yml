@@ -3,4 +3,4 @@
     - name: Stop service Spooler
       win_service:
         name: Spooler
-        state: stopped
+        state: started
